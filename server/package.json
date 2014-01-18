@@ -1,19 +1,10 @@
 {
-  "name": "tunes",
-  "description": "Tunes",
-  "private": true,
+  "name": "Tunes",
+  "description": "Music streaming server",
   "version": "0.0.1",
-  "main": "./server",
-  "engines": {
-    "node": "~0.8.1"
-  },
+  "private": true,
   "dependencies": {
-    "async": "*",
     "express": "*",
-    "mongolian": "*",
-    "walk": "*",
     "websocket.io": "*"
-  },
-  "devDependencies": {},
-  "contributors": []
+  }
 }
