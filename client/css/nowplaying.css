@@ -1,0 +1,107 @@
+header {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	background: #111;
+	color: #fff;
+	z-index: 2;
+}
+
+.nowplaying {
+	display: none;
+}
+.nowplaying.active {
+	display: block;
+}
+
+.controls {
+	position: absolute;
+	bottom: 25px;
+	right: 10px;
+	height: 30px;
+	z-index: 3;
+}
+.controls div {
+	width: 30px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	margin: 0 10px;
+	cursor: pointer;
+	color: #eee;
+}
+.controls .pause {
+	display: none;
+}
+body.playing .controls .pause { display: block; }
+body.playing .controls .play  { display: none; }
+
+#time {
+	position: fixed;
+	bottom: 15px;
+	left: 300px;
+	right: 250px;
+	z-index: 15;
+	color: #bbb;
+	font-size: 13px;
+}
+.remaining {
+	float: right;
+}
+
+
+.songArea {
+	position: absolute;
+	bottom: 15px;
+	left: 30px;
+	line-height: 1.5;
+	z-index: 9;
+	font-size: 1.2em;
+	width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.songArea .title {
+	font-size: 1.2em;
+
+}
+
+.sliderArea {
+	position: fixed;
+	bottom: 40px;
+	left: 300px;
+	right: 250px;
+	height: 5px;
+	z-index: 11;
+	background-color: #aaa;
+	cursor: pointer;
+}
+
+
+
+.slider {
+	display: block;
+	width: 100%;
+
+	height: 5px;
+	z-index: 13;
+	bottom: 0;
+	left: 0;
+}
+
+.slider .track {
+	background: rgba(0,0,0,0.4);
+	height: 5px;
+}
+
+
+.sliderArea:hover .slider .track {
+	background-color: rgb(211, 42, 42);
+}
+
+

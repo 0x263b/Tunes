@@ -1,0 +1,19 @@
+{
+  "name": "tunes",
+  "description": "Tunes",
+  "private": true,
+  "version": "0.0.1",
+  "main": "./server",
+  "engines": {
+    "node": "~0.8.1"
+  },
+  "dependencies": {
+    "async": "*",
+    "express": "*",
+    "mongolian": "*",
+    "walk": "*",
+    "websocket.io": "*"
+  },
+  "devDependencies": {},
+  "contributors": []
+}

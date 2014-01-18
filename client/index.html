@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Music</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<style>
+		body {
+			font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size: 12px;
+			color: #222;
+			cursor: default;
+			
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+
+		.fa.fa-compress {
+			display: none;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/dropdown.css"/>
+	<link rel="stylesheet" type="text/css" href="css/filters.css"/>
+	<link rel="stylesheet" type="text/css" href="css/nowplaying.css"/>
+	<link rel="stylesheet" type="text/css" href="css/songs.css"/>
+	<link rel="stylesheet" type="text/css" href="css/status.css"/>
+	
+	<link rel="stylesheet" href="fa/font-awesome.css">
+	<link rel="icon" href="favicon.ico"/>
+</head>
+<body class="filters-enabled">
+
+<header>
+	<section class="controls">
+		<div class="previous"><i class="fa fa-backward"></i></div>
+		<div class="play"><i class="fa fa-play"></i></div>
+		<div class="pause"><i class="fa fa-pause"></i></div>
+		<div class="next"><i class="fa fa-forward"></i></div>
+		<div class="fullscreen"><i class="fa fa-expand"></i><i class="fa fa-compress"></i></div>
+	</section>
+	<section class="nowplaying">
+		<div class="songArea">
+			<span class="title"></span> <br> <span class="artist"></span> &mdash; <span class="album"></span>
+		</div>
+		<div class="sliderArea">
+			<div data-slider="true" id="timeslider"></div>
+		</div>
+		<div id="time">
+			<time class="elapsed"></time>
+			<time class="remaining"></time>
+		</div>
+	</section>
+</header>
+
+<article class="filters">
+	<section class="artists">
+		<ul></ul>
+	</section>
+</article>
+
+<article class="songs">
+	<div class="songContainer">
+		<div class="songList"></div>
+	</div>
+</article>
+
+<article class="loading">
+	<h2>Loading...</h2>
+</article>
+
+<article class="error">
+	<h2></h2>
+	<p></p>
+</article>
+
+<script src="js/lib/zepto.js"></script>
+<script src="js/lib/zepto-data.js"></script>
+<script src="js/lib/zepto-extend.js"></script>
+<script src="sm2/script/soundmanager2-nodebug-jsmin.js"></script>
+<script src="js/lib/soundmanager.js"></script>
+<script src="js/lib/events.js"></script>
+<script src="js/lib/util.js"></script>
+
+<script src="js/player.js"></script>
+<script src="js/connection.js"></script>
+<script src="js/db.js"></script>
+<script src="js/templates.js"></script>
+
+<script src="js/state.js"></script>
+
+<script src="js/ui/status.js"></script>
+<script src="js/ui/slider.js"></script>
+<script src="js/ui/controls.js"></script>
+<script src="js/ui/nowplaying.js"></script>
+<script src="js/ui/songlist.js"></script>
+<script src="js/ui/filters.js"></script>
+
+<script type="text/javascript">
+	
+// Fullscreen trigger
+$('.fa-expand').click(function(){
+	launchFullscreen(document.documentElement);
+	$(this).hide();
+	$('.fa-compress').show();
+});
+// Window mode trigger
+$('.fa-compress').click(function(){
+	cancelFullscreen();
+	$(this).hide();
+	$('.fa-expand').show();
+});
+
+
+// Fullscreen
+function launchFullscreen(element) {
+	if(element.requestFullScreen) {
+		element.requestFullScreen();
+	} else if(element.mozRequestFullScreen) {
+		element.mozRequestFullScreen();
+	} else if(element.webkitRequestFullScreen) {
+		element.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
+	}
+}
+// Window mode
+function cancelFullscreen() {
+	if(document.cancelFullScreen) {
+		document.cancelFullScreen();
+	} else if(document.mozCancelFullScreen) {
+		document.mozCancelFullScreen();
+	} else if(document.webkitCancelFullScreen) {
+		document.webkitCancelFullScreen();
+	}
+}
+
+</script>
+
+</body>
+</html>

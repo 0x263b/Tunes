@@ -1,0 +1,2260 @@
+{
+  "songs":{
+    "data":{
+      "1":{
+        "track":1,
+        "disc":1,
+        "title":"Meltdown",
+        "length":267,
+        "artist":1,
+        "albumartist":"King Midas sound",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/01 - Meltdown.mp3",
+        "_id":1
+      },
+      "2":{
+        "track":2,
+        "disc":1,
+        "title":"Time Patrol",
+        "length":309,
+        "artist":2,
+        "albumartist":"Kode9 & The Spaceape",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/02 - Time Patrol.mp3",
+        "_id":2
+      },
+      "3":{
+        "track":3,
+        "disc":1,
+        "title":"Aidy's Girl's A Computer",
+        "length":313,
+        "artist":3,
+        "albumartist":"Darkstar",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/03 - Aidy's Girl's A Computer.mp3",
+        "_id":3
+      },
+      "4":{
+        "track":4,
+        "disc":1,
+        "title":"Roller Skates",
+        "length":138,
+        "artist":4,
+        "albumartist":"Samiyam",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/04 - Roller Skates.mp3",
+        "_id":4
+      },
+      "5":{
+        "track":5,
+        "disc":1,
+        "title":"Disco Balls",
+        "length":153,
+        "artist":5,
+        "albumartist":"Flying Lotus",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/05 - Disco Balls.mp3",
+        "_id":5
+      },
+      "6":{
+        "track":6,
+        "disc":1,
+        "title":"Purple Smoke",
+        "length":205,
+        "artist":6,
+        "albumartist":"Black Chow",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/06 - Purple Smoke.mp3",
+        "_id":6
+      },
+      "7":{
+        "track":7,
+        "disc":1,
+        "title":"Fostercare",
+        "length":332,
+        "artist":7,
+        "albumartist":"Burial",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/07 - Fostercare.mp3",
+        "_id":7
+      },
+      "8":{
+        "track":8,
+        "disc":1,
+        "title":"Weekend Fly",
+        "length":259,
+        "artist":8,
+        "albumartist":"Cooly G",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/08 - Weekend Fly.mp3",
+        "_id":8
+      },
+      "9":{
+        "track":9,
+        "disc":1,
+        "title":"Tarantula",
+        "length":245,
+        "artist":9,
+        "albumartist":"Zomby",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/09 - Tarantula.mp3",
+        "_id":9
+      },
+      "10":{
+        "track":10,
+        "disc":1,
+        "title":"Mega Drive Generation",
+        "length":377,
+        "artist":10,
+        "albumartist":"Martyn",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/10 - Mega Drive Generation.mp3",
+        "_id":10
+      },
+      "11":{
+        "track":11,
+        "disc":1,
+        "title":"Turn Away",
+        "length":254,
+        "artist":11,
+        "albumartist":"L.V.",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/11 - Turn Away.mp3",
+        "_id":11
+      },
+      "12":{
+        "track":12,
+        "disc":1,
+        "title":"Level Nine",
+        "length":293,
+        "artist":12,
+        "albumartist":"Mala",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/12 - Level Nine.mp3",
+        "_id":12
+      },
+      "13":{
+        "track":13,
+        "disc":1,
+        "title":"Shake It",
+        "length":370,
+        "artist":13,
+        "albumartist":"LD",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/13 - Shake It.mp3",
+        "_id":13
+      },
+      "14":{
+        "track":14,
+        "disc":1,
+        "title":"Bleeps From Outer Space",
+        "length":321,
+        "artist":14,
+        "albumartist":"Quarta 330",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/14 - Bleeps From Outer Space.mp3",
+        "_id":14
+      },
+      "15":{
+        "track":15,
+        "disc":1,
+        "title":"Sahara Michael",
+        "length":262,
+        "artist":15,
+        "albumartist":"Ikonika",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/15 - Sahara Michael.mp3",
+        "_id":15
+      },
+      "16":{
+        "track":16,
+        "disc":1,
+        "title":"Stash",
+        "length":276,
+        "artist":16,
+        "albumartist":"Joker & Ginz",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD1/16 - Stash.mp3",
+        "_id":16
+      },
+      "17":{
+        "track":1,
+        "disc":2,
+        "title":"9 Samurai",
+        "length":339,
+        "artist":17,
+        "albumartist":"Kode9",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/01 - 9 Samurai.mp3",
+        "_id":17
+      },
+      "18":{
+        "track":2,
+        "disc":2,
+        "title":"South London Boroughs",
+        "length":306,
+        "artist":18,
+        "albumartist":"Burial ",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/02 - South London Boroughs.mp3",
+        "_id":18
+      },
+      "19":{
+        "track":3,
+        "disc":2,
+        "title":"Bad",
+        "length":312,
+        "artist":19,
+        "albumartist":"Kode9 & LD",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/03 - Bad.mp3",
+        "_id":19
+      },
+      "20":{
+        "track":4,
+        "disc":2,
+        "title":"Money Honey (Rmx)",
+        "length":296,
+        "artist":20,
+        "albumartist":"The Bug",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/04 - Money Honey (Rmx).mp3",
+        "_id":20
+      },
+      "21":{
+        "track":5,
+        "disc":2,
+        "title":"Globetrotting",
+        "length":224,
+        "artist":20,
+        "albumartist":"L.V.",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/05 - Globetrotting.mp3",
+        "_id":21
+      },
+      "22":{
+        "track":6,
+        "disc":2,
+        "title":"Distant Lights",
+        "length":326,
+        "artist":20,
+        "albumartist":"Burial",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/06 - Distant Lights.mp3",
+        "_id":22
+      },
+      "23":{
+        "track":7,
+        "disc":2,
+        "title":"Ghost Town",
+        "length":261,
+        "artist":20,
+        "albumartist":"Kode9 & The Spaceape",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/07 - Ghost Town.mp3",
+        "_id":23
+      },
+      "24":{
+        "track":8,
+        "disc":2,
+        "title":"Fukkaz",
+        "length":298,
+        "artist":20,
+        "albumartist":"Kode9 & The Spaceape",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/08 - Fukkaz.mp3",
+        "_id":24
+      },
+      "25":{
+        "track":9,
+        "disc":2,
+        "title":"Return",
+        "length":189,
+        "artist":20,
+        "albumartist":"Samiyam",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/09 - Return.mp3",
+        "_id":25
+      },
+      "26":{
+        "track":10,
+        "disc":2,
+        "title":"Need You",
+        "length":370,
+        "artist":20,
+        "albumartist":"Darkstar",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/10 - Need You.mp3",
+        "_id":26
+      },
+      "27":{
+        "track":11,
+        "disc":2,
+        "title":"Spliff Dub (Rustie Rmx)",
+        "length":212,
+        "artist":20,
+        "albumartist":"Zomby",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/11 - Spliff Dub (Rustie Rmx).mp3",
+        "_id":27
+      },
+      "28":{
+        "track":12,
+        "disc":2,
+        "title":"Please",
+        "length":280,
+        "artist":20,
+        "albumartist":"Ikonika",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/12 - Please.mp3",
+        "_id":28
+      },
+      "29":{
+        "track":13,
+        "disc":2,
+        "title":"Kaliko",
+        "length":237,
+        "artist":20,
+        "albumartist":"Zomby",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/13 - Kaliko.mp3",
+        "_id":29
+      },
+      "30":{
+        "track":14,
+        "disc":2,
+        "title":"You Don't Know What Love Is",
+        "length":346,
+        "artist":21,
+        "albumartist":"2000F & J Kamata",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/14 - You Don't Know What Love Is.mp3",
+        "_id":30
+      },
+      "31":{
+        "track":15,
+        "disc":2,
+        "title":"Digidesign",
+        "length":250,
+        "artist":22,
+        "albumartist":"Joker",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/15 - Digidesign.mp3",
+        "_id":31
+      },
+      "32":{
+        "track":16,
+        "disc":2,
+        "title":"9 Samurai (Quarta 330 Rmx)",
+        "length":329,
+        "artist":22,
+        "albumartist":"Kode9",
+        "album":1,
+        "genre":"Dubstep",
+        "bitrate":320,
+        "file":"./music/5 Years of Hyperdub (2009)/CD2/16 - 9 Samurai (Quarta 330 Rmx).mp3",
+        "_id":32
+      },
+      "33":{
+        "track":1,
+        "disc":null,
+        "title":"Dancing Queen",
+        "length":232,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/01 Dancing Queen.mp3",
+        "_id":33
+      },
+      "34":{
+        "track":2,
+        "disc":null,
+        "title":"Knowing Me, Knowing You",
+        "length":242,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/02 Knowing Me, Knowing You.mp3",
+        "_id":34
+      },
+      "35":{
+        "track":3,
+        "disc":null,
+        "title":"Take a Chance on Me",
+        "length":244,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/03 Take a Chance on Me.mp3",
+        "_id":35
+      },
+      "36":{
+        "track":4,
+        "disc":null,
+        "title":"Mamma Mia",
+        "length":213,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/04 Mamma Mia.mp3",
+        "_id":36
+      },
+      "37":{
+        "track":5,
+        "disc":null,
+        "title":"Lay All Your Love on Me",
+        "length":274,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/05 Lay All Your Love on Me.mp3",
+        "_id":37
+      },
+      "38":{
+        "track":6,
+        "disc":null,
+        "title":"Super Trouper",
+        "length":254,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/06 Super Trouper.mp3",
+        "_id":38
+      },
+      "39":{
+        "track":7,
+        "disc":null,
+        "title":"I Have a Dream",
+        "length":283,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/07 I Have a Dream.mp3",
+        "_id":39
+      },
+      "40":{
+        "track":8,
+        "disc":null,
+        "title":"The Winner Takes It All",
+        "length":295,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/08 The Winner Takes It All.mp3",
+        "_id":40
+      },
+      "41":{
+        "track":9,
+        "disc":null,
+        "title":"Money, Money, Money",
+        "length":188,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/09 Money, Money, Money.mp3",
+        "_id":41
+      },
+      "42":{
+        "track":10,
+        "disc":null,
+        "title":"S.O.S.",
+        "length":201,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/10 S.O.S.mp3",
+        "_id":42
+      },
+      "43":{
+        "track":11,
+        "disc":null,
+        "title":"Chiquitita",
+        "length":325,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/11 Chiquitita.mp3",
+        "_id":43
+      },
+      "44":{
+        "track":12,
+        "disc":null,
+        "title":"Fernando",
+        "length":253,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/12 Fernando.mp3",
+        "_id":44
+      },
+      "45":{
+        "track":13,
+        "disc":null,
+        "title":"Voulez-Vous",
+        "length":262,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/13 Voulez-Vous.mp3",
+        "_id":45
+      },
+      "46":{
+        "track":14,
+        "disc":null,
+        "title":"Gimme! Gimme! Gimme! (A Man After Midnight)",
+        "length":288,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/14 Gimme! Gimme! Gimme! (A Man After Midnight).mp3",
+        "_id":46
+      },
+      "47":{
+        "track":15,
+        "disc":null,
+        "title":"Does Your Mother Know",
+        "length":195,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/15 Does Your Mother Know.mp3",
+        "_id":47
+      },
+      "48":{
+        "track":16,
+        "disc":null,
+        "title":"One of Us",
+        "length":237,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/16 One of Us.mp3",
+        "_id":48
+      },
+      "49":{
+        "track":17,
+        "disc":null,
+        "title":"The Name of the Game",
+        "length":239,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/17 The Name of the Game.mp3",
+        "_id":49
+      },
+      "50":{
+        "track":18,
+        "disc":null,
+        "title":"Thank You for the Music",
+        "length":231,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/18 Thank You for the Music.mp3",
+        "_id":50
+      },
+      "51":{
+        "track":19,
+        "disc":null,
+        "title":"Waterloo",
+        "length":162,
+        "artist":23,
+        "albumartist":"ABBA",
+        "album":2,
+        "genre":"Dance",
+        "bitrate":320,
+        "file":"./music/ABBA - Gold/19 Waterloo.mp3",
+        "_id":51
+      },
+      "52":{
+        "track":1,
+        "disc":1,
+        "title":"La Femme D'Argent",
+        "length":431,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":169,
+        "file":"./music/Air - Moon Safari/1-01 - La Femme D'Argent.mp3",
+        "_id":52
+      },
+      "53":{
+        "track":2,
+        "disc":1,
+        "title":"Sexy Boy",
+        "length":298,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":153,
+        "file":"./music/Air - Moon Safari/1-02 - Sexy Boy.mp3",
+        "_id":53
+      },
+      "54":{
+        "track":3,
+        "disc":1,
+        "title":"All I Need",
+        "length":268,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":165,
+        "file":"./music/Air - Moon Safari/1-03 - All I Need.mp3",
+        "_id":54
+      },
+      "55":{
+        "track":4,
+        "disc":1,
+        "title":"Kelly Watch The Stars",
+        "length":225,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":157,
+        "file":"./music/Air - Moon Safari/1-04 - Kelly Watch The Stars.mp3",
+        "_id":55
+      },
+      "56":{
+        "track":5,
+        "disc":1,
+        "title":"Talisman",
+        "length":256,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":172,
+        "file":"./music/Air - Moon Safari/1-05 - Talisman.mp3",
+        "_id":56
+      },
+      "57":{
+        "track":6,
+        "disc":1,
+        "title":"Remember",
+        "length":154,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":157,
+        "file":"./music/Air - Moon Safari/1-06 - Remember.mp3",
+        "_id":57
+      },
+      "58":{
+        "track":7,
+        "disc":1,
+        "title":"You Make It Easy",
+        "length":241,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":183,
+        "file":"./music/Air - Moon Safari/1-07 - You Make It Easy.mp3",
+        "_id":58
+      },
+      "59":{
+        "track":8,
+        "disc":1,
+        "title":"Ce Matin La",
+        "length":219,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":169,
+        "file":"./music/Air - Moon Safari/1-08 - Ce Matin La.mp3",
+        "_id":59
+      },
+      "60":{
+        "track":9,
+        "disc":1,
+        "title":"New Star In The Sky",
+        "length":340,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":160,
+        "file":"./music/Air - Moon Safari/1-09 - New Star In The Sky.mp3",
+        "_id":60
+      },
+      "61":{
+        "track":10,
+        "disc":1,
+        "title":"Le Voyage De Penelope",
+        "length":190,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":172,
+        "file":"./music/Air - Moon Safari/1-10 - Le Voyage De Penelope.mp3",
+        "_id":61
+      },
+      "62":{
+        "track":1,
+        "disc":2,
+        "title":"Rember (D Whitaker Version)",
+        "length":145,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":175,
+        "file":"./music/Air - Moon Safari/2-01 - Rember (D Whitaker Version).mp3",
+        "_id":62
+      },
+      "63":{
+        "track":2,
+        "disc":2,
+        "title":"Kelly Watch The Stars (Live BBC 1998)",
+        "length":164,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":224,
+        "file":"./music/Air - Moon Safari/2-02 - Kelly Watch The Stars (Live BBC 1998).mp3",
+        "_id":63
+      },
+      "64":{
+        "track":3,
+        "disc":2,
+        "title":"J'Ai Dormi Sous L'Eau (Live BBC 1998)",
+        "length":250,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":188,
+        "file":"./music/Air - Moon Safari/2-03 - J'Ai Dormi Sous L'Eau (Live BBC 1998).mp3",
+        "_id":64
+      },
+      "65":{
+        "track":4,
+        "disc":2,
+        "title":"Sexy Boy (Live BBC 1998)",
+        "length":190,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":171,
+        "file":"./music/Air - Moon Safari/2-04 - Sexy Boy (Live BBC 1998).mp3",
+        "_id":65
+      },
+      "66":{
+        "track":5,
+        "disc":2,
+        "title":"Kelly Watch The Stars (Moog Cookbook Remix)",
+        "length":340,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":230,
+        "file":"./music/Air - Moon Safari/2-05 - Kelly Watch The Stars (Moog Cookbook Remix).mp3",
+        "_id":66
+      },
+      "67":{
+        "track":6,
+        "disc":2,
+        "title":"Trente Millions D'Amis (Live KCRW 1998)",
+        "length":274,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":213,
+        "file":"./music/Air - Moon Safari/2-06 - Trente Millions D'Amis (Live KCRW 1998).mp3",
+        "_id":67
+      },
+      "68":{
+        "track":7,
+        "disc":2,
+        "title":"You Make It Easy (Live KCRW 1998)",
+        "length":285,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":175,
+        "file":"./music/Air - Moon Safari/2-07 - You Make It Easy (Live KCRW 1998).mp3",
+        "_id":68
+      },
+      "69":{
+        "track":8,
+        "disc":2,
+        "title":"Bossa (Demo)",
+        "length":284,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":150,
+        "file":"./music/Air - Moon Safari/2-08 - Bossa (Demo).mp3",
+        "_id":69
+      },
+      "70":{
+        "track":9,
+        "disc":2,
+        "title":"Kelly Watch The Stars (Demo)",
+        "length":226,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":172,
+        "file":"./music/Air - Moon Safari/2-09 - Kelly Watch The Stars (Demo).mp3",
+        "_id":70
+      },
+      "71":{
+        "track":10,
+        "disc":2,
+        "title":"Sexy Boy (Sex Kino Mix)",
+        "length":396,
+        "artist":24,
+        "albumartist":"Air",
+        "album":3,
+        "genre":"Pop",
+        "bitrate":192,
+        "file":"./music/Air - Moon Safari/2-10 - Sexy Boy (Sex Kino Mix).mp3",
+        "_id":71
+      },
+      "72":{
+        "track":1,
+        "disc":1,
+        "title":"Stratosphere",
+        "length":180,
+        "artist":25,
+        "albumartist":"Digitalism",
+        "album":4,
+        "genre":"Electro",
+        "bitrate":320,
+        "file":"./music/Digitalism - I Love You, Dude/01 Stratosphere.mp3",
+        "_id":72
+      },
+      "73":{
+        "track":2,
+        "disc":1,
+        "title":"2 Hearts",
+        "length":234,
+        "artist":25,
+        "albumartist":"Digitalism",
+        "album":4,
+        "genre":"Electro",
+        "bitrate":320,
+        "file":"./music/Digitalism - I Love You, Dude/02 2 Hearts.mp3",
+        "_id":73
+      },
+      "74":{
+        "track":3,
+        "disc":1,
+        "title":"Circles",
+        "length":225,
+        "artist":25,
+        "albumartist":"Digitalism",
+        "album":4,
+        "genre":"Electro",
+        "bitrate":320,
+        "file":"./music/Digitalism - I Love You, Dude/03 Circles.mp3",
+        "_id":74
+      },
+      "75":{
+        "track":4,
+        "disc":1,
+        "title":"Blitz",
+        "length":256,
+        "artist":25,
+        "albumartist":"Digitalism",
+        "album":4,
+        "genre":"Electro",
+        "bitrate":320,
+        "file":"./music/Digitalism - I Love You, Dude/04 Blitz.mp3",
+        "_id":75
+      },
+      "76":{
+        "track":5,
+        "disc":1,
+        "title":"Forrest Gump",
+        "length":213,
+        "artist":25,
+        "albumartist":"Digitalism",
+        "album":4,
+        "genre":"Electro",
+        "bitrate":320,
+        "file":"./music/Digitalism - I Love You, Dude/05 Forrest Gump.mp3",
+        "_id":76
+      },
+      "77":{
+        "track":6,
+        "disc":1,
+        "title":"Reeperbahn",
+        "length":231,
+        "artist":25,
+        "albumartist":"Digitalism",
+        "album":4,
+        "genre":"Electro",
+        "bitrate":320,
+        "file":"./music/Digitalism - I Love You, Dude/06 Reeperbahn.mp3",
+        "_id":77
+      },
+      "78":{
+        "track":7,
+        "disc":1,
+        "title":"Antibiotics",
+        "length":238,
+        "artist":25,
+        "albumartist":"Digitalism",
+        "album":4,
+        "genre":"Electro",
+        "bitrate":320,
+        "file":"./music/Digitalism - I Love You, Dude/07 Antibiotics.mp3",
+        "_id":78
+      },
+      "79":{
+        "track":8,
+        "disc":1,
+        "title":"Just Gazin'",
+        "length":206,
+        "artist":25,
+        "albumartist":"Digitalism",
+        "album":4,
+        "genre":"Electro",
+        "bitrate":320,
+        "file":"./music/Digitalism - I Love You, Dude/08 Just Gazin'.mp3",
+        "_id":79
+      },
+      "80":{
+        "track":9,
+        "disc":1,
+        "title":"Miami Showdown",
+        "length":207,
+        "artist":25,
+        "albumartist":"Digitalism",
+        "album":4,
+        "genre":"Electro",
+        "bitrate":320,
+        "file":"./music/Digitalism - I Love You, Dude/09 Miami Showdown.mp3",
+        "_id":80
+      },
+      "81":{
+        "track":10,
+        "disc":1,
+        "title":"Encore",
+        "length":255,
+        "artist":25,
+        "albumartist":"Digitalism",
+        "album":4,
+        "genre":"Electro",
+        "bitrate":320,
+        "file":"./music/Digitalism - I Love You, Dude/10 Encore.mp3",
+        "_id":81
+      },
+      "82":{
+        "track":1,
+        "disc":1,
+        "title":"The Dead Flag Blues",
+        "length":988,
+        "artist":26,
+        "albumartist":"Godspeed You! Black Emperor",
+        "album":5,
+        "genre":"Post-rock",
+        "bitrate":320,
+        "file":"./music/Godspeed You! Black Emperor - F#A#(infinity)/1-01 The Dead Flag Blues.mp3",
+        "_id":82
+      },
+      "83":{
+        "track":2,
+        "disc":1,
+        "title":"East Hastings",
+        "length":1078,
+        "artist":26,
+        "albumartist":"Godspeed You! Black Emperor",
+        "album":5,
+        "genre":"Post-rock",
+        "bitrate":320,
+        "file":"./music/Godspeed You! Black Emperor - F#A#(infinity)/1-02 East Hastings.mp3",
+        "_id":83
+      },
+      "84":{
+        "track":3,
+        "disc":1,
+        "title":"Providence",
+        "length":1742,
+        "artist":26,
+        "albumartist":"Godspeed You! Black Emperor",
+        "album":5,
+        "genre":"Post-rock",
+        "bitrate":320,
+        "file":"./music/Godspeed You! Black Emperor - F#A#(infinity)/1-03 Providence.mp3",
+        "_id":84
+      },
+      "85":{
+        "track":1,
+        "disc":1,
+        "title":"Storm",
+        "length":1352,
+        "artist":26,
+        "albumartist":"Godspeed You! Black Emperor",
+        "album":6,
+        "genre":"Post-Rock",
+        "bitrate":320,
+        "file":"./music/Godspeed You! Black Emperor - Lift Your Skinny Fists Like Antennas to Heaven/1-01 - Storm.mp3",
+        "_id":85
+      },
+      "86":{
+        "track":2,
+        "disc":1,
+        "title":"Static",
+        "length":1356,
+        "artist":26,
+        "albumartist":"Godspeed You! Black Emperor",
+        "album":6,
+        "genre":"Post-Rock",
+        "bitrate":320,
+        "file":"./music/Godspeed You! Black Emperor - Lift Your Skinny Fists Like Antennas to Heaven/1-02 - Static.mp3",
+        "_id":86
+      },
+      "87":{
+        "track":1,
+        "disc":2,
+        "title":"Sleep",
+        "length":1397,
+        "artist":26,
+        "albumartist":"Godspeed You! Black Emperor",
+        "album":6,
+        "genre":"Post-Rock",
+        "bitrate":320,
+        "file":"./music/Godspeed You! Black Emperor - Lift Your Skinny Fists Like Antennas to Heaven/2-01 - Sleep.mp3",
+        "_id":87
+      },
+      "88":{
+        "track":2,
+        "disc":2,
+        "title":"Antennas To Heaven",
+        "length":1137,
+        "artist":26,
+        "albumartist":"Godspeed You! Black Emperor",
+        "album":6,
+        "genre":"Post-Rock",
+        "bitrate":320,
+        "file":"./music/Godspeed You! Black Emperor - Lift Your Skinny Fists Like Antennas to Heaven/2-02 - Antennas To Heaven.mp3",
+        "_id":88
+      },
+      "89":{
+        "track":1,
+        "disc":1,
+        "title":"The Illest Villains",
+        "length":116,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/01 The Illest Villains.mp3",
+        "_id":89
+      },
+      "90":{
+        "track":2,
+        "disc":1,
+        "title":"Accordion",
+        "length":117,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/02 Accordion.mp3",
+        "_id":90
+      },
+      "91":{
+        "track":3,
+        "disc":1,
+        "title":"Meat Grinder",
+        "length":131,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/03 Meat Grinder.mp3",
+        "_id":91
+      },
+      "92":{
+        "track":4,
+        "disc":1,
+        "title":"Bistro",
+        "length":67,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/04 Bistro.mp3",
+        "_id":92
+      },
+      "93":{
+        "track":5,
+        "disc":1,
+        "title":"Raid feat. MED",
+        "length":150,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/05 Raid feat. MED.mp3",
+        "_id":93
+      },
+      "94":{
+        "track":6,
+        "disc":1,
+        "title":"America's Most Blunted feat. Lord Quas",
+        "length":234,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/06 America's Most Blunted feat. Lord Quas.mp3",
+        "_id":94
+      },
+      "95":{
+        "track":7,
+        "disc":1,
+        "title":"Sickfit (Instrumental)",
+        "length":82,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/07 Sickfit (Instrumental).mp3",
+        "_id":95
+      },
+      "96":{
+        "track":8,
+        "disc":1,
+        "title":"Rainbows",
+        "length":171,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/08 Rainbows.mp3",
+        "_id":96
+      },
+      "97":{
+        "track":9,
+        "disc":1,
+        "title":"Curls",
+        "length":95,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/09 Curls.mp3",
+        "_id":97
+      },
+      "98":{
+        "track":10,
+        "disc":1,
+        "title":"Do Not Fire! (Instrumental)",
+        "length":52,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/10 Do Not Fire! (Instrumental).mp3",
+        "_id":98
+      },
+      "99":{
+        "track":11,
+        "disc":1,
+        "title":"Money Folder",
+        "length":182,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/11 Money Folder.mp3",
+        "_id":99
+      },
+      "100":{
+        "track":12,
+        "disc":1,
+        "title":"Shadows Of Tomorrow feat. Lord Quas",
+        "length":156,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/12 Shadows Of Tomorrow feat. Lord Quas.mp3",
+        "_id":100
+      },
+      "101":{
+        "track":13,
+        "disc":1,
+        "title":"Operation Lifesaver AKA Mint Test",
+        "length":90,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/13 Operation Lifesaver AKA Mint Test.mp3",
+        "_id":101
+      },
+      "102":{
+        "track":14,
+        "disc":1,
+        "title":"Figaro",
+        "length":145,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/14 Figaro.mp3",
+        "_id":102
+      },
+      "103":{
+        "track":15,
+        "disc":1,
+        "title":"Hardcore Hustle feat. Wildchild",
+        "length":82,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/15 Hardcore Hustle feat. Wildchild.mp3",
+        "_id":103
+      },
+      "104":{
+        "track":16,
+        "disc":1,
+        "title":"Strange Ways",
+        "length":111,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/16 Strange Ways.mp3",
+        "_id":104
+      },
+      "105":{
+        "track":17,
+        "disc":1,
+        "title":"Fancy Clowns feat. Viktor Vaughn",
+        "length":115,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/17 Fancy Clowns feat. Viktor Vaughn.mp3",
+        "_id":105
+      },
+      "106":{
+        "track":18,
+        "disc":1,
+        "title":"Eye feat. Stacy Epps",
+        "length":117,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/18 Eye feat. Stacy Epps.mp3",
+        "_id":106
+      },
+      "107":{
+        "track":19,
+        "disc":1,
+        "title":"Supervillain Theme (Instrumental)",
+        "length":52,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/19 Supervillain Theme (Instrumental).mp3",
+        "_id":107
+      },
+      "108":{
+        "track":20,
+        "disc":1,
+        "title":"All Caps",
+        "length":130,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/20 All Caps.mp3",
+        "_id":108
+      },
+      "109":{
+        "track":21,
+        "disc":1,
+        "title":"Great Day",
+        "length":137,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/21 Great Day.mp3",
+        "_id":109
+      },
+      "110":{
+        "track":22,
+        "disc":1,
+        "title":"Rhinestone Cowboy",
+        "length":239,
+        "artist":27,
+        "albumartist":"Madvillain",
+        "album":7,
+        "genre":"Hip Hop",
+        "bitrate":320,
+        "file":"./music/Madvillain - Madvillainy/22 Rhinestone Cowboy.mp3",
+        "_id":110
+      },
+      "111":{
+        "track":1,
+        "disc":1,
+        "title":"Happy Up Here",
+        "length":163,
+        "artist":28,
+        "albumartist":"Röyksopp",
+        "album":8,
+        "genre":"Electronic",
+        "bitrate":270,
+        "file":"./music/Röyksopp - Junior/01 - Röyksopp - Happy Up Here.mp3",
+        "_id":111
+      },
+      "112":{
+        "track":2,
+        "disc":1,
+        "title":"The Girl and the Robot",
+        "length":268,
+        "artist":28,
+        "albumartist":"Röyksopp",
+        "album":8,
+        "genre":"Electronic",
+        "bitrate":264,
+        "file":"./music/Röyksopp - Junior/02 - Röyksopp - The Girl and the Robot.mp3",
+        "_id":112
+      },
+      "113":{
+        "track":3,
+        "disc":1,
+        "title":"Vision One",
+        "length":299,
+        "artist":28,
+        "albumartist":"Röyksopp",
+        "album":8,
+        "genre":"Electronic",
+        "bitrate":268,
+        "file":"./music/Röyksopp - Junior/03 - Röyksopp - Vision One.mp3",
+        "_id":113
+      },
+      "114":{
+        "track":4,
+        "disc":1,
+        "title":"This Must Be It",
+        "length":281,
+        "artist":28,
+        "albumartist":"Röyksopp",
+        "album":8,
+        "genre":"Electronic",
+        "bitrate":292,
+        "file":"./music/Röyksopp - Junior/04 - Röyksopp - This Must Be It.mp3",
+        "_id":114
+      },
+      "115":{
+        "track":5,
+        "disc":1,
+        "title":"Röyksopp Forever",
+        "length":299,
+        "artist":28,
+        "albumartist":"Röyksopp",
+        "album":8,
+        "genre":"Electronic",
+        "bitrate":267,
+        "file":"./music/Röyksopp - Junior/05 - Röyksopp - Röyksopp Forever.mp3",
+        "_id":115
+      },
+      "116":{
+        "track":6,
+        "disc":1,
+        "title":"Miss It So Much",
+        "length":301,
+        "artist":28,
+        "albumartist":"Röyksopp",
+        "album":8,
+        "genre":"Electronic",
+        "bitrate":254,
+        "file":"./music/Röyksopp - Junior/06 - Röyksopp - Miss It So Much.mp3",
+        "_id":116
+      },
+      "117":{
+        "track":7,
+        "disc":1,
+        "title":"Tricky Tricky",
+        "length":359,
+        "artist":28,
+        "albumartist":"Röyksopp",
+        "album":8,
+        "genre":"Electronic",
+        "bitrate":281,
+        "file":"./music/Röyksopp - Junior/07 - Röyksopp - Tricky Tricky.mp3",
+        "_id":117
+      },
+      "118":{
+        "track":8,
+        "disc":1,
+        "title":"You Don't Have a Clue",
+        "length":273,
+        "artist":28,
+        "albumartist":"Röyksopp",
+        "album":8,
+        "genre":"Electronic",
+        "bitrate":266,
+        "file":"./music/Röyksopp - Junior/08 - Röyksopp - You Don't Have a Clue.mp3",
+        "_id":118
+      },
+      "119":{
+        "track":9,
+        "disc":1,
+        "title":"Silver Cruiser",
+        "length":276,
+        "artist":28,
+        "albumartist":"Röyksopp",
+        "album":8,
+        "genre":"Electronic",
+        "bitrate":247,
+        "file":"./music/Röyksopp - Junior/09 - Röyksopp - Silver Cruiser.mp3",
+        "_id":119
+      },
+      "120":{
+        "track":10,
+        "disc":1,
+        "title":"True to Life",
+        "length":350,
+        "artist":28,
+        "albumartist":"Röyksopp",
+        "album":8,
+        "genre":"Electronic",
+        "bitrate":269,
+        "file":"./music/Röyksopp - Junior/10 - Röyksopp - True to Life.mp3",
+        "_id":120
+      },
+      "121":{
+        "track":11,
+        "disc":1,
+        "title":"It's What I Want",
+        "length":188,
+        "artist":28,
+        "albumartist":"Röyksopp",
+        "album":8,
+        "genre":"Electronic",
+        "bitrate":272,
+        "file":"./music/Röyksopp - Junior/11 - Röyksopp - It's What I Want.mp3",
+        "_id":121
+      },
+      "122":{
+        "track":13,
+        "disc":1,
+        "title":"Accross the Graveyard",
+        "length":256,
+        "artist":28,
+        "albumartist":"Röyksopp",
+        "album":8,
+        "genre":"Other",
+        "bitrate":320,
+        "file":"./music/Röyksopp - Junior/Accross the Graveyard.mp3",
+        "_id":122
+      },
+      "123":{
+        "track":12,
+        "disc":1,
+        "title":"Were You Ever Wanted",
+        "length":337,
+        "artist":28,
+        "albumartist":"Röyksopp",
+        "album":8,
+        "genre":"Other",
+        "bitrate":320,
+        "file":"./music/Röyksopp - Junior/Were You Ever Wanted.mp3",
+        "_id":123
+      }
+    },
+    "indexes":{
+      "artist":{
+        "1":{
+          "1":true
+        },
+        "2":{
+          "2":true,
+          "23":true,
+          "24":true
+        },
+        "3":{
+          "3":true,
+          "26":true
+        },
+        "4":{
+          "4":true,
+          "25":true
+        },
+        "5":{
+          "5":true
+        },
+        "6":{
+          "6":true
+        },
+        "7":{
+          "7":true,
+          "22":true
+        },
+        "8":{
+          "8":true
+        },
+        "9":{
+          "9":true,
+          "27":true,
+          "29":true
+        },
+        "10":{
+          "10":true
+        },
+        "11":{
+          "11":true,
+          "21":true
+        },
+        "12":{
+          "12":true
+        },
+        "13":{
+          "13":true
+        },
+        "14":{
+          "14":true
+        },
+        "15":{
+          "15":true,
+          "28":true
+        },
+        "16":{
+          "16":true
+        },
+        "17":{
+          "17":true,
+          "32":true
+        },
+        "18":{
+          "18":true
+        },
+        "19":{
+          "19":true
+        },
+        "20":{
+          "20":true
+        },
+        "21":{
+          "30":true
+        },
+        "22":{
+          "31":true
+        },
+        "23":{
+          "33":true,
+          "34":true,
+          "35":true,
+          "36":true,
+          "37":true,
+          "38":true,
+          "39":true,
+          "40":true,
+          "41":true,
+          "42":true,
+          "43":true,
+          "44":true,
+          "45":true,
+          "46":true,
+          "47":true,
+          "48":true,
+          "49":true,
+          "50":true,
+          "51":true
+        },
+        "24":{
+          "52":true,
+          "53":true,
+          "54":true,
+          "55":true,
+          "56":true,
+          "57":true,
+          "58":true,
+          "59":true,
+          "60":true,
+          "61":true,
+          "62":true,
+          "63":true,
+          "64":true,
+          "65":true,
+          "66":true,
+          "67":true,
+          "68":true,
+          "69":true,
+          "70":true,
+          "71":true
+        },
+        "25":{
+          "72":true,
+          "73":true,
+          "74":true,
+          "75":true,
+          "76":true,
+          "77":true,
+          "78":true,
+          "79":true,
+          "80":true,
+          "81":true
+        },
+        "26":{
+          "82":true,
+          "83":true,
+          "84":true,
+          "85":true,
+          "86":true,
+          "87":true,
+          "88":true
+        },
+        "27":{
+          "89":true,
+          "90":true,
+          "91":true,
+          "92":true,
+          "93":true,
+          "94":true,
+          "95":true,
+          "96":true,
+          "97":true,
+          "98":true,
+          "99":true,
+          "100":true,
+          "101":true,
+          "102":true,
+          "103":true,
+          "104":true,
+          "105":true,
+          "106":true,
+          "107":true,
+          "108":true,
+          "109":true,
+          "110":true
+        },
+        "28":{
+          "111":true,
+          "112":true,
+          "113":true,
+          "114":true,
+          "115":true,
+          "116":true,
+          "117":true,
+          "118":true,
+          "119":true,
+          "120":true,
+          "121":true,
+          "122":true,
+          "123":true
+        }
+      },
+      "album":{
+        "1":{
+          "1":true,
+          "2":true,
+          "3":true,
+          "4":true,
+          "5":true,
+          "6":true,
+          "7":true,
+          "8":true,
+          "9":true,
+          "10":true,
+          "11":true,
+          "12":true,
+          "13":true,
+          "14":true,
+          "15":true,
+          "16":true,
+          "17":true,
+          "18":true,
+          "19":true,
+          "20":true,
+          "21":true,
+          "22":true,
+          "23":true,
+          "24":true,
+          "25":true,
+          "26":true,
+          "27":true,
+          "28":true,
+          "29":true,
+          "30":true,
+          "31":true,
+          "32":true
+        },
+        "2":{
+          "33":true,
+          "34":true,
+          "35":true,
+          "36":true,
+          "37":true,
+          "38":true,
+          "39":true,
+          "40":true,
+          "41":true,
+          "42":true,
+          "43":true,
+          "44":true,
+          "45":true,
+          "46":true,
+          "47":true,
+          "48":true,
+          "49":true,
+          "50":true,
+          "51":true
+        },
+        "3":{
+          "52":true,
+          "53":true,
+          "54":true,
+          "55":true,
+          "56":true,
+          "57":true,
+          "58":true,
+          "59":true,
+          "60":true,
+          "61":true,
+          "62":true,
+          "63":true,
+          "64":true,
+          "65":true,
+          "66":true,
+          "67":true,
+          "68":true,
+          "69":true,
+          "70":true,
+          "71":true
+        },
+        "4":{
+          "72":true,
+          "73":true,
+          "74":true,
+          "75":true,
+          "76":true,
+          "77":true,
+          "78":true,
+          "79":true,
+          "80":true,
+          "81":true
+        },
+        "5":{
+          "82":true,
+          "83":true,
+          "84":true
+        },
+        "6":{
+          "85":true,
+          "86":true,
+          "87":true,
+          "88":true
+        },
+        "7":{
+          "89":true,
+          "90":true,
+          "91":true,
+          "92":true,
+          "93":true,
+          "94":true,
+          "95":true,
+          "96":true,
+          "97":true,
+          "98":true,
+          "99":true,
+          "100":true,
+          "101":true,
+          "102":true,
+          "103":true,
+          "104":true,
+          "105":true,
+          "106":true,
+          "107":true,
+          "108":true,
+          "109":true,
+          "110":true
+        },
+        "8":{
+          "111":true,
+          "112":true,
+          "113":true,
+          "114":true,
+          "115":true,
+          "116":true,
+          "117":true,
+          "118":true,
+          "119":true,
+          "120":true,
+          "121":true,
+          "122":true,
+          "123":true
+        }
+      }
+    },
+    "iterator":123
+  },
+  "artists":{
+    "data":{
+      "1":{
+        "name":"King Midas sound",
+        "art":"http://userserve-ak.last.fm/serve/34/51654779.png",
+        "_id":1
+      },
+      "2":{
+        "name":"Kode9 & The Spaceape",
+        "art":"http://userserve-ak.last.fm/serve/34/61851673.png",
+        "_id":2
+      },
+      "3":{
+        "name":"Darkstar",
+        "art":"http://userserve-ak.last.fm/serve/34/85013945.png",
+        "_id":3
+      },
+      "4":{
+        "name":"Samiyam",
+        "art":"http://userserve-ak.last.fm/serve/34/61634485.png",
+        "_id":4
+      },
+      "5":{
+        "name":"Flying Lotus",
+        "art":"http://userserve-ak.last.fm/serve/34/84021663.png",
+        "_id":5
+      },
+      "6":{
+        "name":"Black Chow",
+        "art":"http://userserve-ak.last.fm/serve/34/38911869.jpg",
+        "_id":6
+      },
+      "7":{
+        "name":"Burial",
+        "art":"http://userserve-ak.last.fm/serve/34/73084702.png",
+        "_id":7
+      },
+      "8":{
+        "name":"Cooly G",
+        "art":"http://userserve-ak.last.fm/serve/34/44155191.jpg",
+        "_id":8
+      },
+      "9":{
+        "name":"Zomby",
+        "art":"http://userserve-ak.last.fm/serve/34/89471065.png",
+        "_id":9
+      },
+      "10":{
+        "name":"Martyn",
+        "art":"http://userserve-ak.last.fm/serve/34/74689224.jpg",
+        "_id":10
+      },
+      "11":{
+        "name":"L.V.",
+        "art":"http://userserve-ak.last.fm/serve/34/56767647.png",
+        "_id":11
+      },
+      "12":{
+        "name":"Mala",
+        "art":"http://userserve-ak.last.fm/serve/34/54026805.png",
+        "_id":12
+      },
+      "13":{
+        "name":"LD",
+        "art":"http://userserve-ak.last.fm/serve/34/17769487.jpg",
+        "_id":13
+      },
+      "14":{
+        "name":"Quarta 330",
+        "art":"http://userserve-ak.last.fm/serve/34/3623574.jpg",
+        "_id":14
+      },
+      "15":{
+        "name":"Ikonika",
+        "art":"http://userserve-ak.last.fm/serve/34/57452115.png",
+        "_id":15
+      },
+      "16":{
+        "name":"Joker & Ginz",
+        "art":"http://userserve-ak.last.fm/serve/34/36365675.jpg",
+        "_id":16
+      },
+      "17":{
+        "name":"Kode9",
+        "art":"http://userserve-ak.last.fm/serve/34/34513469.png",
+        "_id":17
+      },
+      "18":{
+        "name":"Burial ",
+        "art":"http://userserve-ak.last.fm/serve/34/73084702.png",
+        "_id":18
+      },
+      "19":{
+        "name":"Kode9 & LD",
+        "art":"http://userserve-ak.last.fm/serve/34/58744679.jpg",
+        "_id":19
+      },
+      "20":{
+        "name":"The Bug",
+        "art":"http://userserve-ak.last.fm/serve/34/77288418.png",
+        "_id":20
+      },
+      "21":{
+        "name":"2000F & J Kamata",
+        "art":"http://userserve-ak.last.fm/serve/34/24399521.jpg",
+        "_id":21
+      },
+      "22":{
+        "name":"Joker",
+        "art":"http://userserve-ak.last.fm/serve/34/19914865.jpg",
+        "_id":22
+      },
+      "23":{
+        "name":"ABBA",
+        "art":"http://userserve-ak.last.fm/serve/34/44442077.png",
+        "_id":23
+      },
+      "24":{
+        "name":"Air",
+        "art":"http://userserve-ak.last.fm/serve/34/89758.jpg",
+        "_id":24
+      },
+      "25":{
+        "name":"Digitalism",
+        "art":"http://userserve-ak.last.fm/serve/34/6743213.png",
+        "_id":25
+      },
+      "26":{
+        "name":"Godspeed You! Black Emperor",
+        "art":"http://userserve-ak.last.fm/serve/34/44836721.jpg",
+        "_id":26
+      },
+      "27":{
+        "name":"Madvillain",
+        "art":"http://userserve-ak.last.fm/serve/34/53484125.jpg",
+        "_id":27
+      },
+      "28":{
+        "name":"Röyksopp",
+        "art":"http://userserve-ak.last.fm/serve/34/48236159.png",
+        "_id":28
+      }
+    },
+    "indexes":{
+      "name":{
+        "King Midas sound":{
+          "1":true
+        },
+        "Kode9 & The Spaceape":{
+          "2":true
+        },
+        "Darkstar":{
+          "3":true
+        },
+        "Samiyam":{
+          "4":true
+        },
+        "Flying Lotus":{
+          "5":true
+        },
+        "Black Chow":{
+          "6":true
+        },
+        "Burial":{
+          "7":true
+        },
+        "Cooly G":{
+          "8":true
+        },
+        "Zomby":{
+          "9":true
+        },
+        "Martyn":{
+          "10":true
+        },
+        "L.V.":{
+          "11":true
+        },
+        "Mala":{
+          "12":true
+        },
+        "LD":{
+          "13":true
+        },
+        "Quarta 330":{
+          "14":true
+        },
+        "Ikonika":{
+          "15":true
+        },
+        "Joker & Ginz":{
+          "16":true
+        },
+        "Kode9":{
+          "17":true
+        },
+        "Burial ":{
+          "18":true
+        },
+        "Kode9 & LD":{
+          "19":true
+        },
+        "The Bug":{
+          "20":true
+        },
+        "2000F & J Kamata":{
+          "21":true
+        },
+        "Joker":{
+          "22":true
+        },
+        "ABBA":{
+          "23":true
+        },
+        "Air":{
+          "24":true
+        },
+        "Digitalism":{
+          "25":true
+        },
+        "Godspeed You! Black Emperor":{
+          "26":true
+        },
+        "Madvillain":{
+          "27":true
+        },
+        "Röyksopp":{
+          "28":true
+        }
+      }
+    },
+    "iterator":28
+  },
+  "albums":{
+    "data":{
+      "1":{
+        "name":"5 : 5 years of Hyperdub",
+        "artist":1,
+        "_id":1
+      },
+      "2":{
+        "name":"Gold: Greatest Hits",
+        "artist":23,
+        "_id":2
+      },
+      "3":{
+        "name":"Moon Safari",
+        "artist":24,
+        "_id":3
+      },
+      "4":{
+        "name":"I Love You, Dude",
+        "artist":25,
+        "_id":4
+      },
+      "5":{
+        "name":"F#A#(infinity)",
+        "artist":26,
+        "_id":5
+      },
+      "6":{
+        "name":"Lift Your Skinny Fists Like Antennas to Heaven",
+        "artist":26,
+        "_id":6
+      },
+      "7":{
+        "name":"Madvillainy",
+        "artist":27,
+        "_id":7
+      },
+      "8":{
+        "name":"Junior",
+        "artist":28,
+        "_id":8
+      }
+    },
+    "indexes":{
+      "name":{
+        "5 : 5 years of Hyperdub":{
+          "1":true
+        },
+        "Gold: Greatest Hits":{
+          "2":true
+        },
+        "Moon Safari":{
+          "3":true
+        },
+        "I Love You, Dude":{
+          "4":true
+        },
+        "F#A#(infinity)":{
+          "5":true
+        },
+        "Lift Your Skinny Fists Like Antennas to Heaven":{
+          "6":true
+        },
+        "Madvillainy":{
+          "7":true
+        },
+        "Junior":{
+          "8":true
+        }
+      },
+      "artist":{
+        "1":{
+          "1":true
+        },
+        "23":{
+          "2":true
+        },
+        "24":{
+          "3":true
+        },
+        "25":{
+          "4":true
+        },
+        "26":{
+          "5":true,
+          "6":true
+        },
+        "27":{
+          "7":true
+        },
+        "28":{
+          "8":true
+        }
+      }
+    },
+    "iterator":8
+  }
+}

@@ -1,0 +1,147 @@
+.songs {
+	position: absolute;
+	top: 0;
+	left: 300px;
+	right: 0;
+	bottom: 80px;
+}
+
+body.filters-disabled .songs {
+	top: 0;
+	border-top: 0;
+}
+
+th, td {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.songContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow-y: scroll;
+	padding-bottom: 50px;
+}
+
+.songs table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.songList tr {
+	line-height: 30px;
+	font-size: 1.2em;
+}
+
+.songList th {
+	text-align: left;
+	/* border-bottom: 1px solid #e8e8e8;
+	box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.02); */
+	font-weight: 400;
+	font-size: 1.25em;
+	padding-left: 10px;
+}
+
+.songList .header {
+	margin: 0 0 15px;
+	/* background-color: #fcfcfc; */
+	padding: 15px 25px;
+	/* border-bottom: 1px solid #e3e3e3;
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.03); */
+	color: #404040;
+}
+
+.songList h1 {
+	font-weight: 300;
+	font-size: 2.2em;
+	margin: 10px 0;
+}
+
+.songList .header span {
+	color: #807f80;
+}
+
+.songList > div {
+	display: table;
+	width: 100%;
+}
+
+.songList .album-art {
+	width: 200px;
+	display: table-cell;
+	vertical-align: top;
+	text-align: center
+}
+
+.songList .album-art img {
+	width: 150px;
+	outline: 1px solid rgba(0,0,0,0.3);
+	outline-offset: -1px;
+
+}
+
+.songList .album-tracks {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.songList .active {
+	background: #eee;
+}
+
+.songs .status, .songs .track, .songs .title,.songs .length,
+.songs .artist {
+	padding-left: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height: 100%;
+	vertical-align: top;
+	text-align: left;
+}
+
+.songs .status {
+	width: 40px;
+	padding-left: 0;
+	text-align: center;
+}
+.songs .status i {
+	position: relative;
+	top: 1px;
+	opacity: 0;
+	transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+}
+.song.playing .status i {
+	opacity: 1;
+}
+.songs .track {
+	width: 25px;
+	text-align: right;
+	padding-left: 0;
+	color: #7b8696;
+	font-size: 0.9em;
+}
+.songs .title {
+	/*width: 29%;*/
+	color: #444;
+}
+.songs .length {
+	width: 80px;
+	text-align: right;
+	padding-right: 30px;
+	color: #7b8696;
+}
+.songs .artist {
+	/*width: 20%;*/
+}
+.songs .album {
+	/*width: 20%;*/
+}
