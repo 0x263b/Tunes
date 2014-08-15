@@ -63,17 +63,12 @@ var renderSongs = function(songIDs){
 
 
 $('.songList').on('dblclick', '.song', function(){
-	console.log($(this).attr('data-id'));
 	player.queue = [];
 	for (var i in currentSongList) {
 		player.queue.push([DB._current, currentSongList[i]]);
 	}
-	console.log(currentSongList);
 	player.queuePosition = $('.songList .song').index(this);
-	console.log();
-
 	player.newSong();
-	
 	player.play();
 });
 
