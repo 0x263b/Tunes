@@ -1,6 +1,6 @@
 # encoding: utf-8
 require 'rubygems'
-require 'mini_exiftool'
+require './mini_exiftool'
 require 'open-uri'
 require 'json'
 require 'cgi'
@@ -152,8 +152,9 @@ Dir.glob($MUSICDIR + "/**/*.mp3") do |file|
 		#albums
 		url = open("http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=3872f32cbb27fb864541c191f4c9f919&artist=#{CGI.escape(tag.artist)}&album=#{CGI.escape(tag.album)}&format=json").read
 		lastfm = JSON.parse(url)
+		puts lastfm
 
-		if lastfm.has_key("album") and lastfm["album"]["image"][3].has_key("#text")
+		if lastfm.has_key?("album") and lastfm["album"]["image"][3].has_key?("#text")
 			art_url = lastfm["album"]["image"][3]["#text"]
 		else
 			art_url = "no-art.png"

@@ -126,7 +126,7 @@ th, td {
 	width: 25px;
 	text-align: right;
 	padding-left: 0;
-	color: #7b8696;
+	color: #777;
 	font-size: 0.9em;
 }
 .songs .title {
@@ -137,7 +137,7 @@ th, td {
 	width: 80px;
 	text-align: right;
 	padding-right: 30px;
-	color: #7b8696;
+	color: #777;
 }
 .songs .artist {
 	/*width: 20%;*/
