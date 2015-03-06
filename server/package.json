@@ -1,10 +1,10 @@
 {
   "name": "Tunes",
   "description": "Music streaming server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "dependencies": {
-    "express": "*",
-    "websocket.io": "*"
+    "express": "4.11.*",
+    "websocket.io": "0.2.*"
   }
 }

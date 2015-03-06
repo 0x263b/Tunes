@@ -16,7 +16,7 @@ app.get('/song/:id.:ext', function(req, res){
 		var ext = songs[0].file.split('.').pop();
 		
 		if (ext == req.params.ext) {
-			res.sendfile(songs[0].file);
+			res.sendFile(songs[0].file);
 		} else {
 			res.send(404);
 		}

@@ -1,36 +1,21 @@
 # encoding: utf-8
 require 'rubygems'
-require './mini_exiftool'
+require_relative './mini_exiftool.rb'
 require 'open-uri'
 require 'json'
 require 'cgi'
 
 
 # Config
-$DBFILE   = "database.json" # if you change this, change L6 of server.js too 
-$MUSICDIR = "./music"
+DBFILE   = "database.json" # if you change this, change L6 of server.js too 
+MUSICDIR = ""
 
-
-
-if File.exist? $DBFILE
-	File.open($DBFILE, "r") do |f|
-		$DataBase = JSON.parse(f.read)
-		$DataBase.default = 0
-	end
-	puts 'opened database'
-else
-	puts 'making file'
-	$DataBase = Hash.new(0)
-end
-
-def save_DB
-	File.open($DBFILE, "w") do |f|
-		f.write($DataBase.to_json)
+def save_database(db)
+	File.open(DBFILE, "w") do |f|
+		f.write(JSON.pretty_generate(db))
 	end
 	puts 'saved database'
 end
-
-
 
 def make_length(len)
 	len = len.split(' ')
@@ -54,72 +39,78 @@ def make_number(num)
 end
 
 def make_title(file, title)
-	if title.length < 1
+	if title.nil? or title == 0
 		file = file.split('/')
 		return file.last.gsub(".mp3", "").strip
 	else
-		return title.strip
+		return title.to_s.strip
 	end
 end
 
 # Temporary
-song_id = 0
+song_id   = 0
 artist_id = 0
-album_id = 0
+album_id  = 0
 
 artist = Hash.new
-album = Hash.new
+album  = Hash.new
 
-# Saved
-$DataBase['songs'] = Hash.new
-$DataBase['songs']['data'] = Hash.new
-$DataBase['songs']['indexes'] = Hash.new
-$DataBase['songs']['indexes']['artist'] = Hash.new
-$DataBase['songs']['indexes']['album'] = Hash.new
+database = {
+	:songs => {
+		:data => Hash.new,
+		:indexes => {
+			:artist => Hash.new,
+			:album  => Hash.new
+		}
+	},
+	:artists => {
+		:data => Hash.new,
+		:indexes => {
+			:name  => Hash.new
+		}
+	},
+	:albums => {
+		:data => Hash.new,
+		:indexes => {
+			:artist => Hash.new,
+			:name  => Hash.new
+		}
+	}
+}
 
-$DataBase['artists'] = Hash.new
-$DataBase['artists']['data'] = Hash.new
-$DataBase['artists']['indexes'] = Hash.new
-$DataBase['artists']['indexes']['name'] = Hash.new
 
-$DataBase['albums'] = Hash.new
-$DataBase['albums']['data'] = Hash.new
-$DataBase['albums']['indexes'] = Hash.new
-$DataBase['albums']['indexes']['name'] = Hash.new
-$DataBase['albums']['indexes']['artist'] = Hash.new
-
-
-Dir.glob($MUSICDIR + "/**/*.mp3") do |file|
+Dir.glob(MUSICDIR + "/**/*.mp3") do |file|
 	song_id += 1
-
-	puts "#{song_id} > #{file}"
 
 	tag = MiniExiftool.new file
 
-	$DataBase['songs']['data'][song_id.to_s] = { 
-		"track"       => make_number(tag.track),
-		"disc"        => make_number(tag.part_of_set),
-		"title"       => make_title(file, tag.title),
-		"length"      => make_length(tag.duration),
-		"artist"      => tag.artist.strip,
-		"albumartist" => (tag.album_artist.nil?) ? (tag.artist.strip) : (tag.album_artist.strip),
-		"album"       => tag.album.strip,
-		"genre"       => tag.genre,
-		"bitrate"     => make_bitrate(tag.audio_bitrate),
-		"file"        => file,
-		"_id"         => song_id
+	database[:songs][:data][song_id.to_s] = { 
+		:track       => make_number(tag.track),
+		:disc        => make_number(tag.part_of_set),
+		:title       => make_title(file, tag.title),
+		:length      => make_length(tag.duration),
+		:artist      => tag.artist.strip,
+		:albumartist => (tag.album_artist.nil?) ? (tag.artist.strip) : (tag.album_artist.strip),
+		:album       => tag.album.strip,
+		:genre       => tag.genre,
+		:bitrate     => make_bitrate(tag.audio_bitrate),
+		:file        => file,
+		:_id         => song_id
 	}
+
+
+	artist_id += 1 unless artist.has_key?(tag.artist.strip)
+	album_id  += 1 unless album.has_key?(tag.album.strip)
 
 	# List of artists
 	if artist.has_key?(tag.artist.strip)
 		# songs
-		$DataBase['songs']['indexes']['artist'][artist[tag.artist.strip].to_s][song_id.to_s] = true
+		database[:songs][:indexes][:artist][artist[tag.artist.strip].to_s][song_id.to_s] = true
+		database[:songs][:data][song_id.to_s][:artist] = artist[tag.artist.strip]
 	else
-		artist_id += 1
-
 		#songs
 		artist[tag.artist.strip] = artist_id
-		$DataBase['songs']['indexes']['artist'][artist_id.to_s] = {song_id.to_s => true}
+		database[:songs][:indexes][:artist][artist_id.to_s] = {song_id.to_s => true}
 
 
 		url = open("http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=#{CGI.escape(tag.artist)}&api_key=3872f32cbb27fb864541c191f4c9f919&format=json").read
@@ -133,26 +124,26 @@ Dir.glob($MUSICDIR + "/**/*.mp3") do |file|
 
 
 		# artists
-		$DataBase['artists']['data'][artist[tag.artist.strip].to_s] = {"name" => tag.artist.strip, "art" => art_url, "_id" => artist_id}
-		$DataBase['artists']['indexes']['name'][tag.artist.strip] = {artist_id.to_s => true}
+		database[:artists][:data][artist[tag.artist.strip].to_s] = {:name => tag.artist.strip, :art => art_url, :_id => artist_id}
+		database[:artists][:indexes][:name][tag.artist.strip] = {artist_id.to_s => true}
+		database[:songs][:data][song_id.to_s][:artist] = artist_id
 	end
 
 	# List of albums
 	if album.has_key?(tag.album.strip)
 		# songs
-		$DataBase['songs']['indexes']['album'][album[tag.album.strip].to_s][song_id.to_s] = true
+		database[:songs][:indexes][:album][album[tag.album.strip].to_s][song_id.to_s] = true
+		database[:songs][:data][song_id.to_s][:album] = album[tag.album.strip]
 	else
-		album_id += 1
-		artist_id = artist[tag.artist.strip]
+		artist_temp = artist[tag.artist.strip]
 		
 		# songs
 		album[tag.album.strip] = album_id
-		$DataBase['songs']['indexes']['album'][album_id.to_s] = {song_id.to_s => true}
+		database[:songs][:indexes][:album][album_id.to_s] = {song_id.to_s => true}
 
 		#albums
 		url = open("http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=3872f32cbb27fb864541c191f4c9f919&artist=#{CGI.escape(tag.artist)}&album=#{CGI.escape(tag.album)}&format=json").read
 		lastfm = JSON.parse(url)
-		puts lastfm
 
 		if lastfm.has_key?("album") and lastfm["album"]["image"][3].has_key?("#text")
 			art_url = lastfm["album"]["image"][3]["#text"]
@@ -160,30 +151,30 @@ Dir.glob($MUSICDIR + "/**/*.mp3") do |file|
 			art_url = "no-art.png"
 		end
 
-		$DataBase['albums']['data'][album_id.to_s] = {"name" => tag.album.strip, "artist" => artist_id, "art" => art_url, "_id" => album_id}
-		$DataBase['albums']['indexes']['name'][tag.album.strip] = {album_id.to_s => true}
+		database[:albums][:data][album_id.to_s] = {:name => tag.album.strip, :artist => artist_temp, :art => art_url, :_id => album_id}
+		database[:albums][:indexes][:name][tag.album.strip] = {album_id.to_s => true}
 		
-		if $DataBase['albums']['indexes']['artist'].has_key?(artist_id.to_s)
-			$DataBase['albums']['indexes']['artist'][artist_id.to_s][album_id.to_s] = true
+		if database[:albums][:indexes][:artist].has_key?(artist_temp.to_s)
+			database[:albums][:indexes][:artist][artist_temp.to_s][album_id.to_s] = true
 		else 
-			$DataBase['albums']['indexes']['artist'][artist_id.to_s] = {album_id.to_s => true}
+			database[:albums][:indexes][:artist][artist_temp.to_s] = {album_id.to_s => true}
 		end
+		database[:songs][:data][song_id.to_s][:album] = album_id
 	end
 
-	$DataBase['songs']['data'][song_id.to_s]['artist'] = artist_id
-	$DataBase['songs']['data'][song_id.to_s]['album'] = album_id
 
+	puts "S:#{song_id} Ar:#{artist_id} Al:#{album_id} > #{file}"
 end
 
 # songs
-$DataBase['songs']['iterator'] = $DataBase['songs']['data'].length
+database[:songs][:iterator] = database[:songs][:data].length
 
 # artists
-$DataBase['artists']['iterator'] = $DataBase['artists']['data'].length
+database[:artists][:iterator] = database[:artists][:data].length
 
 # albums
-$DataBase['albums']['iterator'] = $DataBase['albums']['data'].length
+database[:albums][:iterator] = database[:albums][:data].length
 
 
-save_DB
+save_database(database)
 
